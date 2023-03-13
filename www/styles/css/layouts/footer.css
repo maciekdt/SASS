@@ -1,0 +1,11 @@
+footer {
+  position: relative;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.73);
+  text-align: center;
+  justify-content: center; }
+  footer .bottom-contact h3 {
+    color: #3e3e3e;
+    font-size: 24px; }
+  footer .bottom-contact p {
+    color: #3e3e3e; }

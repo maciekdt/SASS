@@ -1,0 +1,15 @@
+@import "./layouts/header.scss";
+@import "./layouts/footer.scss";
+@import "./components/navigation.scss";
+@import "./helpers/fonts.scss";
+@import "./helpers/colors.scss";
+@import "./fragments/about.scss";
+@import "./fragments/intro.scss";
+@import "./fragments/menu.scss";
+body {
+    background-color: $primary-color;
+}
+
+.main-img {
+    width: 100%;
+}

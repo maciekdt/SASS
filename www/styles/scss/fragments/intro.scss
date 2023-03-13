@@ -1,0 +1,15 @@
+$text-opacity: 0.5;
+$text-hover-opacity: 0.7;
+$text-active-opacity: 1;
+// Define a class for text with increasing opacity on click
+.test {
+    opacity: $text-opacity;
+    transition: opacity 0.3s ease-in-out;
+    &:hover {
+        opacity: $text-hover-opacity;
+    }
+    &:active,
+    &+& {
+        opacity: $text-active-opacity;
+    }
+}

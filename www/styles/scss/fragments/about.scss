@@ -1,0 +1,43 @@
+@import "../helpers/fonts.scss";
+.info-img {
+    width: 100%;
+}
+
+.h-title {
+    @include title-font();
+    font-size: 36px;
+}
+
+.h-desc {
+    @include title-font();
+    font-size: 18px;
+}
+
+.main-text {
+    @include info-font();
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+$text-opacity: 0.5;
+$text-hover-opacity: 0.7;
+$text-active-opacity: 1;
+.extra-text {
+    @extend .main-text;
+    opacity: $text-opacity;
+    transition: opacity 0.6s ease-in-out;
+    &:hover {
+        opacity: $text-hover-opacity;
+    }
+    &:active &+& {
+        opacity: $text-active-opacity;
+    }
+}
+
+td {
+    width: 50%;
+}
+
+.about {
+    margin-top: 2em;
+}

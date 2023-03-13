@@ -1,0 +1,21 @@
+.top-nav ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .top-nav ul li {
+    position: relative;
+    list-style: none; }
+    .top-nav ul li a {
+      position: relative;
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: 500px;
+      letter-spacing: 3px;
+      padding: 10px; }
+      .top-nav ul li a:hover {
+        background: rgba(255, 255, 255, 0.667);
+        color: black; }
+        .top-nav ul li a:hover:after {
+          display: none; }

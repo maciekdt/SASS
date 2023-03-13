@@ -1,0 +1,25 @@
+@mixin title-font {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    text-align: center!important;
+    font-weight: 400;
+}
+
+@mixin info-font {
+    font-family: "Times New Roman";
+    font-size: 18px!important;
+    line-height: 1.5;
+}
+
+@mixin dish-font {
+    font-family: "Playfair Display";
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+@mixin dish_info-font {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 17px;
+    line-height: 1.5;
+}

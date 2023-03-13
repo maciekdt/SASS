@@ -1,0 +1,17 @@
+@import "../helpers/colors.scss";
+footer {
+    position: relative;
+    width: 100%;
+    background-color: $background_grey;
+    text-align: center;
+    justify-content: center;
+    .bottom-contact {
+        h3 {
+            color: $grey;
+            font-size: 24px;
+        }
+        p {
+            color: $grey;
+        }
+    }
+}

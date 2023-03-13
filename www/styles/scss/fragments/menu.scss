@@ -1,0 +1,22 @@
+@import "../helpers/fonts.scss";
+.menu-img {
+    width: 100%;
+}
+
+.h-menu-title {
+    @include title-font();
+    font-size: 36px;
+}
+
+.p-dish {
+    @include dish-font();
+    font-size: 20px;
+}
+
+.p-dish-descr {
+    @include dish_info-font();
+}
+
+.tr-menu {
+    margin-left: 3em;
+}
